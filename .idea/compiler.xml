@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="time-admin-api" />
+        <module name="time-admin-biz" />
+        <module name="time-auth" />
+        <module name="time-codegen2" />
+        <module name="time-common-core" />
+        <module name="time-common-datasource" />
+        <module name="time-eureka" />
+        <module name="time-gateway" />
+        <module name="time-member" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

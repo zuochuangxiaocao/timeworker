@@ -1,0 +1,9 @@
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\fallback\TimeFallbackResponse.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\fallback\TimeAuthFallbackProvider.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\service\feign\fallback\MenuServiceFallbackImpl.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\fallback\TimeAdminFallbackProvider.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\service\impl\PermissionServiceImpl.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\service\feign\MenuService.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\TimeGatewayApplication.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\config\TimeResourceConfigurerAdapter.java
+C:\springboot\soraka\timeworker\time-gateway\src\main\java\com\time\gateway\service\PermissionService.java

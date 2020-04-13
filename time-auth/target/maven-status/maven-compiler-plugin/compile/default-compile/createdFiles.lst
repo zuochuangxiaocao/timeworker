@@ -1,0 +1,9 @@
+com\time\auth\TimeAuthApplication.class
+com\time\auth\config\TimeSecurityConfigurerAdapter.class
+com\time\auth\config\token\TokenConfig.class
+com\time\auth\service\feign\UserService.class
+com\time\auth\userdetails\UserDetailServiceImpl.class
+com\time\auth\userdetails\UserDetailsImpl.class
+com\time\auth\service\feign\fallback\UserServiceFallbackImpl.class
+com\time\auth\config\TimeAuthorizationConfigurerAdapter.class
+com\time\auth\config\token\TimeJwtAccessTokenConverter.class

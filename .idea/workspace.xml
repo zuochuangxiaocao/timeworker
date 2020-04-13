@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27815709-dc28-455b-b4ff-8ce479b91386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/time-eureka/src/test/java/com/time/eureka/SorakaDiscoveryApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/TimeGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/fallback/TimeAuthFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time-gateway/src/test/java/com/time/gateway/SorakaGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time-member/src/test/java/com/time/weixin/SorakaWeixinApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/main/java/com/soraka/admin/SorakaAdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/main/java/com/soraka/admin/model/dto/BaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/main/java/com/soraka/admin/model/dto/LoginDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/main/java/com/soraka/admin/model/dto/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/main/java/com/soraka/admin/model/dto/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/main/java/com/soraka/admin/model/vo/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/test/java/com/soraka/admin/SorakaAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/test/java/com/soraka/admin/dao/UserDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-admin/src/test/java/com/soraka/admin/service/DeptServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/SorakaAuthApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/config/SorakaAuthorizationConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/config/TimeAuthorizationConfigurerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/config/SorakaSecurityConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/config/TimeSecurityConfigurerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/config/token/SorakaJwtAccessTokenConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/config/token/TimeJwtAccessTokenConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/config/token/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/config/token/TokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/service/feign/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/service/feign/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/service/feign/fallback/UserServiceFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/service/feign/fallback/UserServiceFallbackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/userdetails/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/userdetails/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/java/com/soraka/auth/userdetails/UserDetailsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/userdetails/UserDetailsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-auth/src/test/java/com/soraka/auth/SorakaAuthApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/constant/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/exception/BuzCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/exception/SorakaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/BaseDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/DeptDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/MenuDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/RoleDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/RoleMenuDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/UserDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/domain/UserRoleDO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/dto/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-common/src/main/java/com/soraka/common/model/dto/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-discovery/soraka-discovery.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-discovery/src/main/java/com/soraka/discovery/SorakaDiscoveryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-discovery/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-discovery/src/test/java/com/soraka/discovery/SorakaDiscoveryApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/SorakaGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/config/SorakaResourceConfigurerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/config/TimeResourceConfigurerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/fallback/SorakaAdminFallbackProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/fallback/TimeAdminFallbackProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/fallback/SorakaAuthFallbackProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/fallback/SorakaFallbackResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/fallback/TimeFallbackResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/service/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/service/feign/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/service/feign/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/service/feign/fallback/MenuServiceFallbackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/service/feign/fallback/MenuServiceFallbackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/java/com/soraka/gateway/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-gateway/src/main/java/com/time/gateway/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-gateway/src/test/java/com/soraka/gateway/SorakaGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-weixin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time-member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-weixin/src/main/java/com/soraka/weixin/SorakaWeixinApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-weixin/src/main/java/com/soraka/weixin/Swagger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-weixin/src/main/java/com/soraka/weixin/controller/MpController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-weixin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/time-member/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-weixin/src/test/java/com/soraka/weixin/SorakaWeixinApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543295776961.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543295776961.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543296142160.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543296142160.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543296490936.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543296490936.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543296760129.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543296760129.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297230754.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297230754.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297272665.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297272665.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297282580.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297282580.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297324443.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297324443.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297398698.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297398698.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297583807.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297583807.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297837472.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297837472.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543297933300.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543297933300.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543298173037.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543298173037.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/1543298711465.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/1543298711465.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/20181128094815.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/20181128094815.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/常见问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/常见问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soraka-wiki/快速开始.md" beforeDir="false" afterPath="$PROJECT_DIR$/time-wiki/快速开始.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/time-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/soraka-init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/Swagger2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/TimeAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/main/java/com/time/auth/TimeAuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/controller/BaseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/controller/DeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/dao/DeptDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/dao/MenuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/dao/RoleDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/dao/RoleMenuDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/dao/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/dao/UserRoleDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/dto/BaseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/dto/LoginDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/dto/QueryParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/dto/TreeNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/dto/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/dto/VueRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/vo/DeptTreeVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/vo/MenuTreeVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/model/vo/UserVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/DeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/MenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/RoleMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/UserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/impl/DeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/impl/MenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/impl/RoleMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/impl/RoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/impl/UserRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/java/com/time/admin/util/TreeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/mapper/DeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/mapper/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/mapper/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/mapper/RoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/main/resources/mapper/UserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/test/java/com/time/admin/SorakaAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-auth/src/test/java/com/time/auth/SorakaAuthApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/test/java/com/time/admin/dao/UserDAOTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/test/java/com/time/admin/service/DeptServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/test/java/com/time/admin/service/MenuServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/test/java/com/time/admin/service/RoleServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-admin/src/test/java/com/time/admin/service/UserServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/time-eureka/src/main/java/com/time/eureka/SorakaDiscoveryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/time-eureka/src/main/java/com/time/eureka/TimeEurekaApplication.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/time-admin/time-admin-biz/target/" />
+    <ignored path="$PROJECT_DIR$/time-auth/target/" />
+    <ignored path="$PROJECT_DIR$/time-codegen2/target/" />
+    <ignored path="$PROJECT_DIR$/time-admin/target/" />
+    <ignored path="$PROJECT_DIR$/time-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/time-member/target/" />
+    <ignored path="$PROJECT_DIR$/time-admin/time-admin-api/target/" />
+    <ignored path="$PROJECT_DIR$/time-common/target/" />
+    <ignored path="$PROJECT_DIR$/time-common/time-common-datasource/target/" />
+    <ignored path="$PROJECT_DIR$/time-common/time-common-core/target/" />
+    <ignored path="$PROJECT_DIR$/time-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="372608231">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="12" />
+          <entry key="java" value="117" />
+          <entry key="md" value="1" />
+          <entry key="vm" value="6" />
+          <entry key="xml" value="40" />
+          <entry key="yml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="12" />
+          <entry key="JAVA" value="117" />
+          <entry key="Markdown" value="1" />
+          <entry key="VTL" value="6" />
+          <entry key="XML" value="40" />
+          <entry key="YAML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="417" />
+          <entry key="md" value="52" />
+          <entry key="vm" value="20" />
+          <entry key="xml" value="78" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="417" />
+          <entry key="Markdown" value="52" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="VTL" value="20" />
+          <entry key="XML" value="78" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/time-member/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-boot-starter-test</find>
+      <find>@RestController</find>
+      <find>spring-web:5.0.10</find>
+      <find>devtools</find>
+      <find>spring-boot-starter-web</find>
+      <find>pig4cloud</find>
+      <find>lombok</find>
+      <find>httpPutFormContentFilter</find>
+      <find>GenDatasourceConfMapper</find>
+      <find>org.springframework.security</find>
+      <find>import com.pig4cloud.pig.common.log.annotation.SysLog;</find>
+      <find>member.time-member</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\springboot\soraka\timeworker</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberImgService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmMemberImgController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmPhoneLogService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmPhoneLogController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmPointLogService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmPointLogController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmPointRuleService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmPointRuleController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmPrivilegeService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmPrivilegeController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmSalesService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmSignController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmSignService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmSalesController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmStudentService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmStudentController.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberImgServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberImgMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmConsultantMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberContactsMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberLevelMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPhoneLogMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPointLogMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPointRuleMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPrivilegeMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmSalesMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmSignMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmStudentMapper.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmConsultantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberLevelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberContactsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPhoneLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPointLogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPointRuleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPrivilegeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmSalesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmSignServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmStudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/entity/TmMemberLevel.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberLevelService.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/Swagger2.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/java/com/time/member/TimeMemberApplication.java" />
+        <option value="$PROJECT_DIR$/time-member/src/main/resources/mapper/TmConsultantMapper.xml" />
+        <option value="$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberContactsMapper.xml" />
+        <option value="$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberImgMapper.xml" />
+        <option value="$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberLevelMapper.xml" />
+        <option value="$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberMapper.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="time-member" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="time-member" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="timeworker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timeworker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timeworker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timeworker" type="462c0819:PsiDirectoryNode" />
+              <item name="time-member" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="GenDatasourceConfServiceImpl&#9;PSI&#9;JAVA://com.time.codegen.service.impl.GenDatasourceConfServiceImpl" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586744873003" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/createojectok-pig" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.14907508" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.time.common.core.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\springboot\soraka\timeworker\time-member\src\main\java\com\time\member\service\impl" />
+      <recent name="C:\springboot\soraka\timeworker\time-member\src\main\java\com\time\member\service" />
+      <recent name="C:\springboot\soraka\timeworker\time-member\src\main\java\com\time\member\mapper" />
+      <recent name="C:\springboot\soraka\timeworker\time-member\src\main\java\com\time\member\entity" />
+      <recent name="C:\springboot\soraka\timeworker\time-member\src\main\java\com\time\member\controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.16008772" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.TimeAdminApplication">
+    <configuration name="TimeAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-admin-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.admin.TimeAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeAuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.auth.TimeAuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeCodeGenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-codegen2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.codegen.TimeCodeGenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.eureka.TimeEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.gateway.TimeGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeMemberApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.member.TimeMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="time-member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.time.weixin.TimeMemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.TimeAdminApplication" />
+      <item itemvalue="Spring Boot.TimeAuthApplication" />
+      <item itemvalue="Spring Boot.TimeCodeGenApplication" />
+      <item itemvalue="Spring Boot.TimeGatewayApplication" />
+      <item itemvalue="Spring Boot.TimeMemberApplication" />
+      <item itemvalue="Spring Boot.TimeEurekaApplication" />
+      <item itemvalue="Spring Boot.TimeMemberApplication (1)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27815709-dc28-455b-b4ff-8ce479b91386" name="Default Changelist" comment="" />
+      <created>1586707018792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586707018792</updated>
+      <workItem from="1586707023264" duration="1235000" />
+      <workItem from="1586708330235" duration="6381000" />
+      <workItem from="1586739990315" duration="4876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12492000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2234957" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32928476" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.28879893" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32928476" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.2928475" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmPointRuleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmSalesService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmSignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmPrivilegeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmSalesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmSignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/controller/TmStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="83" column="35" lean-forward="true" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/entity/TmConsultant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.3.1/mybatis-plus-extension-3.3.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/entity/TmMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmConsultantMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberContactsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberImgMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberLevelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPhoneLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPointLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPointRuleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmPrivilegeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmSalesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmSignMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/mapper/TmStudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmConsultantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberContactsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberImgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberLevelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmMemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPhoneLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPointLogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPointRuleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmPrivilegeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmSalesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmSignServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/impl/TmStudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmConsultantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberContactsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberImgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/entity/TmMemberLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberLevelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/service/TmMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/java/com/time/member/TimeMemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/resources/mapper/TmConsultantMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberContactsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberImgMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberLevelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/src/main/resources/mapper/TmMemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="72" lean-forward="true" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="9" column="17" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="79" column="20" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14907508" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14907508" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.14907508" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

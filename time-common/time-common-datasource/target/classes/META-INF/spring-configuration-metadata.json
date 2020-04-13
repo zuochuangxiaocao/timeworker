@@ -1,0 +1,43 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.time.common.datasource.config.DataSourceProperties",
+      "name": "spring.datasource",
+      "type": "com.time.common.datasource.config.DataSourceProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.time.common.datasource.config.DataSourceProperties",
+      "name": "spring.datasource.driver-class-name",
+      "description": "驱动类型",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.time.common.datasource.config.DataSourceProperties",
+      "name": "spring.datasource.password",
+      "description": "密码",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.time.common.datasource.config.DataSourceProperties",
+      "defaultValue": "select * from gen_datasource_conf where del_flag = 0",
+      "name": "spring.datasource.query-ds-sql",
+      "description": "查询数据源的SQL",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.time.common.datasource.config.DataSourceProperties",
+      "name": "spring.datasource.url",
+      "description": "jdbcurl",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.time.common.datasource.config.DataSourceProperties",
+      "name": "spring.datasource.username",
+      "description": "用户名",
+      "type": "java.lang.String"
+    }
+  ]
+}

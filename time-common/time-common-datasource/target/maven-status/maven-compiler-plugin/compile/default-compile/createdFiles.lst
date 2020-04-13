@@ -1,0 +1,7 @@
+com\time\common\datasource\config\JdbcDynamicDataSourceProvider.class
+com\time\common\datasource\config\LastParamDsProcessor.class
+com\time\common\datasource\config\DataSourceProperties.class
+com\time\common\datasource\annotation\EnableDynamicDataSource.class
+META-INF\spring-configuration-metadata.json
+com\time\common\datasource\DynamicDataSourceAutoConfiguration.class
+com\time\common\datasource\support\DataSourceConstants.class

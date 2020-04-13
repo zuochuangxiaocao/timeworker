@@ -1,0 +1,9 @@
+com\time\gateway\config\TimeResourceConfigurerAdapter.class
+com\time\gateway\service\feign\fallback\MenuServiceFallbackImpl.class
+com\time\gateway\fallback\TimeFallbackResponse.class
+com\time\gateway\service\PermissionService.class
+com\time\gateway\TimeGatewayApplication.class
+com\time\gateway\fallback\TimeAdminFallbackProvider.class
+com\time\gateway\service\impl\PermissionServiceImpl.class
+com\time\gateway\service\feign\MenuService.class
+com\time\gateway\fallback\TimeAuthFallbackProvider.class

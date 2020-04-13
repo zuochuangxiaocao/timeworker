@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.time.member.mapper.TmPhoneLogMapper">
+
+  <resultMap id="tmPhoneLogMap" type="com.time.member.entity.TmPhoneLog">
+                  <id property="logId" column="log_id"/>
+                        <result property="memberId" column="member_id"/>
+                        <result property="oldPhone" column="old_phone"/>
+                        <result property="newPhone" column="new_phone"/>
+                        <result property="createdBy" column="created_by"/>
+                        <result property="updatedBy" column="updated_by"/>
+                        <result property="version" column="version"/>
+                        <result property="isActive" column="is_active"/>
+                        <result property="createdDate" column="created_date"/>
+                        <result property="updatedDate" column="updated_date"/>
+                        <result property="mainId" column="main_id"/>
+                        <result property="dataOrgId" column="data_org_id"/>
+                        <result property="memberName" column="member_name"/>
+            </resultMap>
+</mapper>
